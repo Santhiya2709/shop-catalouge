@@ -1,0 +1,29 @@
+seller_name = "ABC REATILE SHOP"
+seller_address = "123, Gariya station road,\nKolkata - 700084."
+seller_contact = "contact 123-456-789"
+
+print("-"*50)
+print(f"{seller_name}")
+print(f"{seller_address}")
+print("-"*50)
+
+apricart_price = 300
+dates_price = 400
+almond_price = 500
+apricart_dates_combo = (apricart_price + dates_price)*0.9
+dates_almond_combo = (dates_price + almond_price)*0.9
+apricart_almond_combo = (apricart_price + almond_price)*0.9
+gift_pack = (apricart_price + dates_price + almond_price)*0.75
+
+print("Product(s)\tPrice (per pack)")
+print(f"Apricart\t{apricart_price}")
+print(f"Dtaes\t\t{dates_price}")
+print(f"Almond\t\t{almond_price}")
+print(f"COMBO 1\t\t{apricart_dates_combo}")
+print(f"COMBO 2\t\t{dates_almond_combo}")
+print(f"COMBO 3\t\t{apricart_almond_combo}")
+print(f"Gift box\t{gift_pack}")
+
+print("*"*50)
+print(f"For free delevery,{seller_contact}")
+print("*"*50)
